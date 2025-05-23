@@ -1,0 +1,36 @@
+#nextBtn {
+    border-style: none;
+    border-radius: 22px;
+    background-color: aqua;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#nextBtn:hover {
+    border-color: rgb(0, 0, 0);
+}
+
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#restartBtn {
+    border: 3px solid;
+    border-radius: 22px;
+    padding: 10px 15px;
+    margin: 22px;
+    width: 122px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#restartBtn:hover {
+    background-color: aquamarine;
+}
+
+#score {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
